@@ -7,41 +7,43 @@
 
 		<!--CSS style-->
 		<style>
-			div.menu_title_box{
-				float:left;
-				background:black;
-				padding:7px 0px;
-				margin:10px 0px;
-				width:50%;
-				display:inline;
+			ul.navbar{
+				list-style: none;
+				display: block;
+				background-color: black;
+				overflow: auto;
+				font-family: "Bungee Shade", regular;
+				width: 960px;
+				margin: 0px auto 10px auto;
+				padding: 4px;
 			}
-			a.menu_title{
-				font-family:'Bungee Shade';
-				color:white;
-				font-size:38px;
-				text-decoration:none;
-				margin:0px 20px;
+			li.navitem_title{
+				float: left;
+				display: block;
+				padding: 8px;
 			}
-			div.menu_items_box{
-				float:right;
-				background:black;
-				padding:12px 0px;
-				margin:10px 0px;
-				width:50%;
-				display:inline;
+			li.navitem_title p{
+				font-size: 32px;
+				color: white;
 			}
-			a.menu_items{
-				font-family:'Bungee Shade';
-				color:white;
-				font-size:28px;
-				text-decoration:none;
-				margin:0px 20px;
+			li.navitem_right{
+				float: right;
+				display: table-cell;
+				vertical-align: middle;
+				line-height: 32px;
+			}
+			li.navitem_right a{
+				font-size: 22px;
+				display: block;
+				padding: 8px;
+				color: white;
+				text-decoration: none;
 			}
 			div.main_content_area{
-				clear:left;
-				margin:0px auto;
-				width:960px;
-				border:1px solid black;
+				clear: left;
+				margin: 0px auto;
+				width: 960px;
+				border: 1px solid black;
 			}
 			body{
 				background-image: url("assets/images/small_steps.png");
@@ -50,15 +52,15 @@
 	</head>
 
 	<body>
-		<!--left half of menu bar-->
-		<div class="menu_title_box">
-			<a class="menu_title" href="index.html">Nisarg Joshi</a>
-		</div>
-		<!--right half of menu bar-->
-		<div class="menu_items_box">
-			<a class="menu_items" href="index.html">About</a>
-			<a class="menu_items" href="portfolio.html">Portfolio</a>
-			<a class="menu_items" href="contact.html">Contact</a>
+		<div style="display: block; background-color: black; width: 100%;">
+			<ul class="navbar">
+				<!--left half of menu bar-->
+				<li class="navitem_title"><p>Nisarg Joshi</p></li>
+				<!--right half of menu bar-->
+				<li class="navitem_right"><a href="index.html">About</a></li>
+				<li class="navitem_right"><a href="portfolio.html">Portfolio</a></li>
+				<li class="navitem_right"><a href="contact.html">Contact</a></li>
+			</ul>
 		</div>
 		<!--main content area-->
 		<div class="main_content_area">
