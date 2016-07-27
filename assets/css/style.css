@@ -44,10 +44,6 @@ li.navitem_right a:link{
 	color: white;
 }
 
-li.navitem_right a:visited{
-	color: rgba(127, 176, 105, 1);
-}
-
 li.navitem_right a:hover{
 	color: rgba(219, 255, 118, 1);
 }
@@ -114,10 +110,28 @@ div.textbox{
 	background-color:rgba(255, 255, 255, 0.6);
 	overflow:auto;
 	padding:8px;
+	max-width: 650px;
+}
+
+div.textbox_left{
+	background-color:rgba(255, 255, 255, 0.6);
+	overflow:auto;
+	padding:8px;
+	text-align: left;
+}
+
+img.social_icon{
+	width:15%;
+	height: 15%;
+	opacity: 0.8;
 }
 
 #whats_up{
 	margin-top: 40px;
+}
+
+div.push{
+	height: 90px;
 }
 
 .footer{
@@ -129,5 +143,5 @@ div.textbox{
 	width: 100%;
 	text-align: center;
 	padding: 8px;
-	background-color: rgba(51, 51, 51, 0.8);
+	background-color: rgb(51, 51, 51);
 }
