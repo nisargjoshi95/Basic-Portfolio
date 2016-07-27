@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+		<title>Nisarg Joshi</title>
+
+	</head>
+
+	<body>
+		<div style="display: block; background-color: rgba(51, 51, 51, 0.8); width: 100%;">
+			<ul class="navbar">
+				<!--left half of menu bar-->
+				<li class="navitem_title"><h1>Nisarg Joshi</h1></li>
+				<!--right half of menu bar-->
+				<li class="navitem_right" style="background-color: #FFFBBD"><a href="contact.html" id="contact" style="color:#7FB069">Contact</a></li>
+				<li class="navitem_right"><a href="portfolio.html"  id="portfolio">Portfolio</a></li>
+				<li class="navitem_right"><a href="index.html">About</a></li>
+			</ul>
+		</div>
+		<!--main content area--> 
+		<div class="main_content_area">
+			<!--about blurb-->
+			<div class="content_section" align="center">
+				<h1>Contact</h1> <hr>
+				<div class="textbox">
+					<form name="htmlform" method="post" action="contact_form_send.php">
+						<table style="width:80%">
+							<tr>
+								<td class="form_label" valign="top"><label for="first_name">First Name: </label></td>
+								<td style="vertical-align: middle;">*</td>
+								<td class="form_input" valign="top"><input  type="text" name="first_name" maxlength="50"></td>
+							</tr>
+							<tr>
+								<td class="form_label" valign="top"><label for="last_name">Last Name: </label></td>
+								<td style="vertical-align: middle;">*</td>
+								<td class="form_input" valign="top"><input  type="text" name="last_name" maxlength="50"></td>
+							</tr>
+							<tr>
+								<td class="form_label" valign="top"><label for="email">Email: </label></td>
+								<td style="vertical-align: middle;">*</td>
+								<td class="form_input" valign="top"><input  type="text" name="email" maxlength="50"></td>
+							</tr>
+							<tr>
+								<td class="form_label" valign="top"><label for="telephone">Phone: </label></td>
+								<td>&nbsp</td>
+								<td class="form_input" valign="top"><input  type="text" name="telephone" maxlength="50"></td>
+							</tr>
+							<tr>
+								<td class="form_label" valign="top"><label for="comments">Message: </label></td>
+								<td>*</td>
+								<td class="form_input" valign="top"><textarea  name="comments" maxlength="1000" rows="6"></textarea></td>
+							</tr>
+							<tr>
+								<td colspan="3" style="text-align:center; padding: 8px 0px;"><input type="submit" value="Send Message"></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<!--sidebar-->
+			<div class="sidebar" align="center">
+				<h1>Connect</h1> <hr>
+				<div class="textbox">
+					<a href="https://www.facebook.com/nisargj" target="_blank"><img src="assets/images/facebook.png" class="social_icon"></a>
+					<a href="https://twitter.com/badguynini" target="_blank"><img src="assets/images/twitter.png"  class="social_icon"></a>
+					<a href="https://www.linkedin.com/in/nisarg-joshi-342a5153" target="_blank"><img src="assets/images/linkedin.png" class="social_icon"></a>
+					<a href="https://github.com/nisargjoshi95" target="_blank"><img src="assets/images/github.png" class="social_icon"></a>
+				</div>
+			</div>
+			<div id="whats_up" class="sidebar" align="center">
+				<h1>Currently...</h1> <hr>
+				<div class="textbox">
+					<p>Attending The Coding Boot Camp at UT. Hook 'em!&#129304</p>
+				</div>
+			</div>
+		</div>
+		<div class="push"></div>
+		<footer class="footer">&copy Copyright 2016 Nisarg Joshi</footer>
+	</body>
+</html>

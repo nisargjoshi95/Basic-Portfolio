@@ -145,3 +145,19 @@ div.push{
 	padding: 8px;
 	background-color: rgb(51, 51, 51);
 }
+
+td.form_label{
+	padding: 8px 8px;
+}
+
+td.form_input input{
+	margin: 0px 8px;
+	width: 100%;
+	vertical-align: top;
+}
+
+td.form_input textarea{
+	margin: 0px 8px;
+	width: 100%;
+	vertical-align: top;
+}
