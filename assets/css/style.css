@@ -40,8 +40,20 @@ li.navitem_right a{
 	text-decoration: none;
 }
 
+li.navitem_right a:link{
+	color: white;
+}
+
+li.navitem_right a:visited{
+	color: rgba(127, 176, 105, 1);
+}
+
 li.navitem_right a:hover{
 	color: rgba(219, 255, 118, 1);
+}
+
+li.navitem_right a:active{
+	color: #E6AA68;
 }
 
 #portfolio {
@@ -90,6 +102,22 @@ div.main_content_area div.sidebar h1{
 	color: #333333;
 	padding-top: 8px;
 	padding-left: 8px;
+}
+
+div.main_content_area p{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 18px;
+	 color:#333333;
+}
+
+div.textbox{
+	background-color:rgba(255, 255, 255, 0.6);
+	overflow:auto;
+	padding:8px;
+}
+
+#whats_up{
+	margin-top: 40px;
 }
 
 .footer{
