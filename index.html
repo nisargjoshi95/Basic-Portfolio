@@ -2,70 +2,46 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
 		<title>Nisarg Joshi</title>
 
-		<!--CSS style-->
-		<style>
-			ul.navbar{
-				list-style: none;
-				display: block;
-				background-color: black;
-				overflow: auto;
-				font-family: "Bungee Shade", regular;
-				width: 960px;
-				margin: 0px auto 10px auto;
-				padding: 4px;
-			}
-			li.navitem_title{
-				float: left;
-				display: block;
-				padding: 8px;
-			}
-			li.navitem_title p{
-				font-size: 32px;
-				color: white;
-			}
-			li.navitem_right{
-				float: right;
-				display: table-cell;
-				vertical-align: middle;
-				line-height: 32px;
-			}
-			li.navitem_right a{
-				font-size: 22px;
-				display: block;
-				padding: 8px;
-				color: white;
-				text-decoration: none;
-			}
-			div.main_content_area{
-				clear: left;
-				margin: 0px auto;
-				width: 960px;
-				border: 1px solid black;
-			}
-			body{
-				background-image: url("assets/images/small_steps.png");
-			}
-		</style>
 	</head>
 
 	<body>
-		<div style="display: block; background-color: black; width: 100%;">
+		<div style="display: block; background-color: rgba(51, 51, 51, 0.8); width: 100%;">
 			<ul class="navbar">
 				<!--left half of menu bar-->
-				<li class="navitem_title"><p>Nisarg Joshi</p></li>
+				<li class="navitem_title"><h1>Nisarg Joshi</h1></li>
 				<!--right half of menu bar-->
+				<li class="navitem_right"><a href="contact.html" id="contact">Contact</a></li>
+				<li class="navitem_right"><a href="portfolio.html"  id="portfolio">Portfolio</a></li>
 				<li class="navitem_right"><a href="index.html">About</a></li>
-				<li class="navitem_right"><a href="portfolio.html">Portfolio</a></li>
-				<li class="navitem_right"><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
-		<!--main content area-->
+		<!--main content area--> 
 		<div class="main_content_area">
 			<!--about blurb-->
-			<h3>blurb</h3>
+			<div class="content_section">
+				<h1>About Me</h1> <hr>
+				<div style="background-color:rgba(255, 255, 255, 0.6); overflow:auto; padding:8px; font-family: 'Open Sans', sans-serif; font-size: 18px; color:#333333;">
+					<img src="assets/images/profile.png" alt="Profile Picture" style="float:left; width:123px; height:123px; margin-right: 16px; margin-bottom: 8px; border: 5px solid #333333; ">
+					Hi there and welcome to my website! Here you will be able to find examples of my work, some information about me and what I'm currently doing, as well as how to get in touch with me.<br><br>
+					I have always loved technology and being able to make things myself, and strive to work in highly technical as well as entreprenurial environments. My skills have grown to include a broad general knowledge of the software development process as well as various programming languages and paradigms. In particular, I am interested in artifical intelligence and machine learning algorithms that can be applied to solve a variety of complex real world problems.<br><br>
+					If you would like me to design something for you, I will apply my existing skills as well as anything new I might learn along the way to help you or your company to be successful and grow. Feel free to email me via the contact page if you have any other questions.
+				</div>
+			</div>
+			<!--sidebar-->
+			<div class="sidebar" align="center">
+				<h1>Connect</h1> <hr>
+				<a href="https://www.facebook.com/nisargj"><img src="assets/images/facebook.png" style="width:15%; height: 15%; opacity: 0.8; padding: 8px 0px;""></a>
+				<a href="https://twitter.com/badguynini"><img src="assets/images/twitter.png"  style="width:15%; height: 15%; opacity:0.8; padding: 8px 0px;"></a>
+				<a href="https://www.linkedin.com/in/nisarg-joshi-342a5153"><img src="assets/images/linkedin.png" style="width:15%; height: 15%; opacity:0.8; padding: 8px 0px;"></a>
+			</div>
 		</div>
+		<footer class="footer">&copy Copyright 2016 Nisarg Joshi</footer>
 	</body>
 </html>
