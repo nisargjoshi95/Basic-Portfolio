@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
      
-    // CHANGE THE TWO LINES BELOW
+
     $email_to = "nisarg.joshi.95@gmail.com";
      
     $email_subject = "PORTFOLIO CONTACT";

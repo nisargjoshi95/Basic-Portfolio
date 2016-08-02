@@ -4,14 +4,23 @@ body{
 }
 
 /* NAVBAR */
+div.nav_container{
+	position: fixed;
+	top: 0px;
+	display: block;
+	background-color: rgba(51, 51, 51, 0.8);
+	width: 100%;
+	z-index: 1;
+}
+
 ul.navbar{
 	list-style: none;
 	display: block;
 	overflow: auto;
 	font-family: "Bungee Shade", regular;
 	width: 960px;
-	margin: 0px auto 50px auto;
 	padding: 4px;
+	margin: 0px auto;
 }
 
 li.navitem_title{
@@ -126,6 +135,17 @@ img.social_icon{
 	opacity: 0.8;
 }
 
+a.fancy_link{
+	font-family: "Bungee Shade", regular;
+	color: rgba(219, 255, 118, 1);;
+	text-decoration: none;
+}
+
+a.fancy_link:link{
+	color: rgba(219, 255, 118, 1);;
+	font-style: none;
+}
+
 #whatsUp{
 	margin-top: 40px;
 }
@@ -144,6 +164,14 @@ div.push{
 	text-align: center;
 	padding: 8px;
 	background-color: rgb(51, 51, 51);
+}
+
+img.portfolio_item{
+	width:90%;
+	height:auto;
+	margin: 0px 8px;
+	margin-bottom: 8px;
+	border: 5px solid #333333;
 }
 
 td.form_label{
