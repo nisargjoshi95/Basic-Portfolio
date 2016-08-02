@@ -135,15 +135,23 @@ img.social_icon{
 	opacity: 0.8;
 }
 
-a.fancy_link{
-	font-family: "Bungee Shade", regular;
-	color: rgba(219, 255, 118, 1);;
+div.fancy_link{
+	background-color: #5A5A5A;
+	font-family: 'Bungee Shade', regular;
 	text-decoration: none;
+	color: white;
+	padding: 8px;
+	margin-top: 8px;
+	font-size: 22px;
 }
 
-a.fancy_link:link{
-	color: rgba(219, 255, 118, 1);;
-	font-style: none;
+div.fancy_link:hover{
+	color: rgba(219, 255, 118, 1);
+}
+
+div.fancy_link:active{
+	color: #E6AA68;
+	text-decoration: none;
 }
 
 #whatsUp{
