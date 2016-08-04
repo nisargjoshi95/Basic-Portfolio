@@ -19,7 +19,7 @@ ul.navbar{
 	overflow: auto;
 	font-family: "Bungee Shade", regular;
 	width: 960px;
-	padding: 4px;
+	padding: 0px;
 	margin: 0px auto;
 }
 
@@ -131,7 +131,7 @@ div.textbox_left{
 
 img.social_icon{
 	width:15%;
-	height: 15%;
+	height: auto;
 	opacity: 0.8;
 }
 
@@ -156,6 +156,7 @@ div.fancy_link:active{
 
 #whatsUp{
 	margin-top: 40px;
+	right: 0;
 }
 
 div.push{
@@ -183,6 +184,7 @@ img.portfolio_item{
 }
 
 td.form_label{
+	font-family: 'Open Sans', sans-serif;
 	padding: 8px 8px;
 }
 
